@@ -1,0 +1,84 @@
+#include <iostream>
+
+using namespace std;
+
+int inp_A (int a[][]);
+int inp_B (int b[][]);
+int out_A (int a[][]);
+int out_B (int b[][]);
+
+
+int main()
+{
+    int g,h;
+    cout<<"Masukan Jumlah Baris = ";cin>>g;
+    cout<<"Masukan Jumlah Kolom = ";cin>>h;
+    cout<<endl;
+    int a[g][h],b[g][h], c[g][h], x=0;
+    for(int i=0; i<g; i++)
+    {
+        for (int j=0; j<h; j++)
+        {
+            cout<<"Masukan Data A["<<i<<"]["<<j<<"] = ";
+            cin>>a[i][j];
+        }
+    }
+
+    for(int i=0; i<g; i++)
+    {
+        for (int j=0; j<h; j++)
+        {
+            cout<<"Masukan Data B["<<i<<"]["<<j<<"] = ";
+            cin>>b[i][j];
+        }
+    }
+
+    cout<<"\nARRAY A\n";
+    for(int i=0; i<g; i++)
+    {
+        for (int j=0; j<h; j++)
+        {
+            cout<<"["<<a[i][j]<<"]";
+        }
+        cout<<endl;
+    }
+
+    cout<<"\nArray B\n";
+    for(int i=0; i<g; i++)
+    {
+        for (int j=0; j<h; j++
+)
+        {
+            cout<<"["<<b[i][j]<<"]";
+        }
+        cout<<endl;
+    }
+
+    cout<<"\nARRAY A+B\n";
+    for(int i=0; i<g; i++)
+    {
+        x=0;
+        for (int j=0; j<h; j++)
+        {
+            c[i][j]=a[i][j]+b[i][j];
+            cout<<"["<<c[i][j]<<"]";
+            x=x+c[i][j];
+        }
+
+        cout<<" "<<x;
+        cout<<endl;
+    }
+
+    for(int j=0; j<h; j++)
+    {
+        x=0;
+        for (int i=0; i<g; i++)
+        {
+            x=x+c[i][j];
+        }
+
+        cout<<x<<" ";
+    }
+    cout<<endl;
+
+}

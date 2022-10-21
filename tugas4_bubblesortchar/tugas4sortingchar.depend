@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1556703760 source:d:\documents\coolyeah\2\struktur data\c++\tugas4sortingchar\main.cpp
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<iostream>
+
+1556703760 source:d:\documents\coolyeah\2\struktur data\c++\tugas4_bubblesortchar\main.cpp
+	<stdio.h>
+	<conio.h>
+	<string.h>
+	<iostream>
+

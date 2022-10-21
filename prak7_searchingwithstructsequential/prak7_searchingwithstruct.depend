@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1562204050 source:d:\documents\kuliah\2\struktur data\c++\prak7_searchingwithstructsequential\main.cpp
+	<iostream>
+	<string.h>
+	<windows.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1564024217 source:d:\documents\kuliah\2\struktur data\c++\prak8_interpolationsearchchar\main.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+

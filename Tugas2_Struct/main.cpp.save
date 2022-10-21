@@ -1,0 +1,39 @@
+#include <iostream>
+
+using namespace std;
+
+struct tgl_pinjam{
+int d, m, y;
+};
+
+struct kode_buku{
+string No;
+char cat;
+};
+
+struct peminjam{
+string nama;
+int nim;
+tgl_pinjam tgl;
+kode_buku book;
+};
+
+
+int main()
+{
+    int g;
+    peminjam p;
+    cout << " Masukkan data yang akan diinput = ";cin>>g;
+    cout << endl;
+    cout << "==============FORM PEMINJAMAN BUKU==============" << endl;
+    cout << " Tanggal (dd)   = ";cin>>p.tgl.d;
+    cout << " Bulan   (mm)   = ";cin>>p.tgl.m;
+    cout << " Bulan   (yyyy) = ";cin>>p.tgl.y;
+    cout << "------------------------------------------------" <<endl;
+    cout << " NIM         = ";cin>>p.nim;
+    cout << " NAMA        = ";cin>>p.nama;
+    cout << "------------------------------------------------" <<endl;
+    cout << " NO. BUKU    = ";cin>>p.book.No;
+    cout << " KATEGORI    = ";cin>>p.book.cat;
+    return 0;
+}
