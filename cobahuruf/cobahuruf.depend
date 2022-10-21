@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1547203248 source:d:\documents\school\pei\alprog\c++\cobahuruf\main.cpp
+	<iostream>
+	<conio.h>
+	<string.h>
+
